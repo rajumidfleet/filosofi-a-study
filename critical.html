@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f4efe5">
+  <title>Kritiskt tänkande – Filosofi A</title>
+  <link rel="stylesheet" href="critical.css">
+</head>
+<body>
+  <div class="shell">
+    <aside class="side" id="side">
+      <a class="brand" href="index.html"><span class="brandmark">Φ</span><span><strong>Filosofi A</strong><small>Studieplattform</small></span></a>
+      <div class="course-switch">
+        <a href="index.html">🏛 Filosofins historia</a>
+        <a class="active" href="critical.html">🧠 Kritiskt tänkande</a>
+      </div>
+      <nav class="modules" id="moduleNav"></nav>
+      <div class="side-foot">
+        <div class="p-row"><span>Framsteg</span><strong id="progressText">0%</strong></div>
+        <div class="track"><div class="bar" id="progressBar"></div></div>
+        <button class="ghost" id="resetBtn" type="button">Nollställ träning</button>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="top">
+        <button class="menu" id="menuBtn" type="button" aria-label="Öppna meny">☰</button>
+        <div><span class="eyebrow">Filosofi A · Kritiskt tänkande</span><strong id="crumb">Tes, argument & struktur</strong></div>
+        <a class="history-link" href="index.html">Historia →</a>
+      </header>
+      <section id="view" class="view" aria-live="polite"></section>
+    </main>
+  </div>
+  <script src="critical.js"></script>
+</body>
+</html>
