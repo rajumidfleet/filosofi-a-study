@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f4efe5">
+  <title>Filosofi A – Studieatlas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <div class="brand-mark">Φ</div>
+        <div>
+          <strong>Filosofi A</strong>
+          <span>Interaktiv studieatlas</span>
+        </div>
+      </div>
+
+      <div class="sidebar-tools">
+        <label class="search-box">
+          <span>⌕</span>
+          <input id="searchInput" type="search" placeholder="Sök filosof eller begrepp…" aria-label="Sök i studieatlasen">
+        </label>
+      </div>
+
+      <nav id="lectureNav" class="lecture-nav" aria-label="Föreläsningar"></nav>
+
+      <div class="sidebar-footer">
+        <div class="progress-mini">
+          <div class="progress-row"><span>Framsteg</span><strong id="progressLabel">0/12</strong></div>
+          <div class="progress-track"><div id="progressBar" class="progress-bar"></div></div>
+        </div>
+        <button id="resetProgress" class="text-button" type="button">Nollställ markeringar</button>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <button id="menuButton" class="icon-button mobile-only" type="button" aria-label="Öppna meny">☰</button>
+        <div class="breadcrumb" id="breadcrumb">Filosofins historia</div>
+        <div class="top-actions">
+          <button id="studyModeBtn" class="chip-button" type="button">🎯 Testläge</button>
+        </div>
+      </header>
+
+      <section id="page" class="page" aria-live="polite"></section>
+    </main>
+  </div>
+
+  <dialog id="quizDialog" class="quiz-dialog">
+    <div class="quiz-head">
+      <div>
+        <span class="eyebrow">Snabbtest</span>
+        <h2 id="quizTitle">Testa vad som sitter</h2>
+      </div>
+      <button id="closeQuiz" class="icon-button" type="button" aria-label="Stäng">×</button>
+    </div>
+    <div id="quizBody"></div>
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>
