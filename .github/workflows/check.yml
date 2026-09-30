@@ -16,5 +16,6 @@ jobs:
       - run: npm ci --ignore-scripts
       - run: npm run check
       - run: node --test --experimental-test-coverage --test-coverage-include='guide/core.mjs' --test-coverage-lines=90 --test-coverage-functions=90 --test-coverage-branches=80 tests/guide.test.mjs
+      - run: node --test --experimental-test-coverage --test-coverage-include='guide/glossary-core.mjs' --test-coverage-lines=90 --test-coverage-functions=90 --test-coverage-branches=80 tests/glossary.test.mjs
       - run: git diff --exit-code -- guide.html
       - run: npm audit --audit-level=high
