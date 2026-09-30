@@ -1,7 +1,11 @@
 import {courseNames, storageKey, esc, questionList, readRatings, selectQuestions, searchTopics, truthRows} from './core.mjs';
+import {conceptIndex, searchConcepts} from './glossary-core.mjs';
 import {timeMapPage, mountTimeMap} from './time-map.mjs';
 // The build inserts the versioned course content here; no runtime network calls.
 const topics = /* GUIDE_TOPICS */ [];
+const extraConcepts = /* GUIDE_EXTRA_CONCEPTS */ [];
+const concepts = conceptIndex(topics,extraConcepts);
+let termCourse = 'all', termLetter = 'all';
 const exams = /* GUIDE_EXAMS */ [];
 const timeMapData = /* GUIDE_TIME_MAP */ {};
 const mapLand = /* GUIDE_MAP_LAND */ {};
@@ -13,7 +17,7 @@ const search = document.getElementById('search');
 const results = document.getElementById('search-results');
 let storageOK = true, ratings = {}, current = 'home', course = 'all', topic = 'all', review = false, index = 0, termQuery = '', operator = 'implies';
 try { ratings = readRatings(localStorage.getItem(storageKey), questions); } catch { storageOK = false; }
-const titles = {home:'Överblick','time-map':'Tidskarta & personer',historia:'Filosofins historia',kritiskt:'Kritiskt tänkande',practice:'Öva med egna ord',glossary:'Alla begrepp',exams:'Gamla tentor',sources:'Källor & läsning'};
+const titles = {home:'Överblick','time-map':'Tidskarta & personer',historia:'Filosofins historia',kritiskt:'Kritiskt tänkande',practice:'Öva med egna ord',glossary:'Begreppsindex A–Ö',exams:'Gamla tentor',sources:'Källor & läsning'};
 const button = (id, title) => `<button data-page="${esc(id)}">${esc(title)}</button>`;
 nav.innerHTML = `<div class="nav-items">${['home','time-map','practice','glossary'].map(id => button(id,titles[id])).join('')}</div>` + Object.entries(courseNames).map(([id,name]) => `<details class="nav-section" open><summary>${name}</summary><div class="nav-items">${button(id,'Kursöversikt')}${topics.filter(t => t.course === id).map(t => button(t.id,t.title)).join('')}</div></details>`).join('') + `<div class="nav-items">${button('exams',titles.exams)}${button('sources',titles.sources)}</div>`;
 
@@ -58,9 +62,24 @@ function practice() {
   index = Math.min(index,Math.max(0,selected.length-1));
   return `<div class="eyebrow">Repetition · En fråga i taget</div><h1>Öva med egna ord</h1><p>Försök först själv. Svarsstödet är ett exempel på viktiga punkter, inte den enda möjliga formuleringen.</p><div class="study-toolbar"><label for="course-filter">Kurs</label><select id="course-filter"><option value="all">Båda kurserna</option>${Object.entries(courseNames).map(([id,name])=>`<option value="${id}" ${course===id?'selected':''}>${name}</option>`).join('')}</select><label for="topic-filter">Område</label><select id="topic-filter"><option value="all">Alla områden</option>${topics.filter(t=>course==='all'||t.course===course).map(t=>`<option value="${t.id}" ${topic===t.id?'selected':''}>${esc(t.title)}</option>`).join('')}</select><label><input id="review-only" type="checkbox" ${review?'checked':''}> Bara kvar att öva</label></div><p class="small" id="question-count" aria-live="polite">${selected.length ? `Fråga ${index+1} av ${selected.length}` : 'Inga frågor kvar i urvalet.'}</p>${selected.length ? qcard(selected[index]) : '<p class="empty">Alla frågor i urvalet är markerade Sitter. Stäng av filtret för att repetera dem igen.</p>'}<div class="actions"><button id="previous" ${index===0?'disabled':''}>← Föregående fråga</button><button id="next" class="primary" ${index>=selected.length-1?'disabled':''}>Nästa fråga →</button></div>`;
 }
+function glossaryResults() {
+  const list=searchConcepts(concepts,termQuery,termCourse,termLetter);
+  return `<p class="small" role="status">${list.length} ${list.length===1?'begreppsförklaring':'begreppsförklaringar'}</p><div class="concept-list">${list.map(g=>`<article class="card concept-card"><div class="section-label">${courseNames[g.course]} · ${esc(g.title)}</div><h2>${esc(g.name)}</h2><p>${esc(g.definition)}</p>${g.example?`<div class="reading"><strong>Exempel</strong><p>${esc(g.example)}</p></div><p>${esc(g.note)}</p>`:''}<div class="actions">${button(g.topic,'Läs i sitt sammanhang →')}${(g.relatedTopics||[]).map(id=>button(id,topics.find(t=>t.id===id).title)).join('')}</div>${g.sources?`<p class="mini">Kompletterande begreppsförklaring. Källor: ${g.sources.map(x=>`<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a>`).join(' · ')}</p>`:''}</article>`).join('')}</div>${list.length?'':'<p class="empty">Ingen träff i urvalet. Prova ett kortare ord eller välj Alla bokstäver och Båda kurserna.</p>'}`;
+}
 function glossary() {
-  const list = topics.flatMap(t=>t.terms.map(([name,definition])=>({name,definition,topic:t.id,title:t.title,course:t.course}))).filter(g=>(g.name+' '+g.definition).toLocaleLowerCase('sv').includes(termQuery.toLocaleLowerCase('sv')));
-  return `<h1>Alla begrepp</h1><p>Jämför betydelsen i sitt sammanhang – samma ord kan användas på olika sätt.</p><label for="term-search">Filtrera begrepp</label><input id="term-search" type="search" value="${esc(termQuery)}" placeholder="Till exempel: relevans"><p class="small" aria-live="polite">${list.length} begreppsförklaringar</p><div class="terms">${list.map(g=>`<details><summary>${esc(g.name)} <small>· ${esc(g.title)}</small></summary><p>${esc(g.definition)}</p>${button(g.topic,'Läs i sitt sammanhang →')}</details>`).join('')}</div>`;
+  return `<div class="eyebrow">Slå upp · Förstå · Läs vidare</div><h1>Begreppsindex A–Ö</h1><p class="lead">Vad betyder ordet? Sök på ett begrepp eller skriv till exempel ”vad är ett axiom?”. Förklaringarna visas direkt.</p><div class="concept-search"><label for="term-search">Sök begrepp</label><input id="term-search" type="search" value="${esc(termQuery)}" placeholder="Till exempel: axiom, premiss, dygd…"><label for="term-course">Kurs</label><select id="term-course"><option value="all">Båda kurserna</option>${Object.entries(courseNames).map(([id,name])=>`<option value="${id}" ${termCourse===id?'selected':''}>${name}</option>`).join('')}</select></div><div class="concept-letters" role="group" aria-label="Filtrera på första bokstaven">${['all',...new Set(concepts.map(g=>g.name[0].toLocaleUpperCase('sv')))].map(l=>`<button data-letter="${l}" aria-pressed="${l===termLetter}">${l==='all'?'Alla bokstäver':l}</button>`).join('')}</div><p class="small">Ett urval ur båda kurserna. Samma ord kan ha olika betydelser i olika sammanhang.</p><div id="concept-results">${glossaryResults()}</div>`;
+}
+function updateGlossary() {
+  document.getElementById('concept-results').innerHTML=glossaryResults();
+  content.querySelectorAll('[data-letter]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.letter===termLetter));
+  const params=new URLSearchParams({q:termQuery,course:termCourse,letter:termLetter});
+  history.replaceState(null,'','#glossary?'+params);
+}
+function readGlossaryURL() {
+  if(current!=='glossary')return;
+  const params=new URLSearchParams(location.hash.split('?')[1]||'');
+  termQuery=params.get('q')||'';termCourse=Object.hasOwn(courseNames,params.get('course'))?params.get('course'):'all';
+  termLetter=[...new Set(concepts.map(g=>g.name[0].toLocaleUpperCase('sv')))].includes(params.get('letter'))?params.get('letter'):'all';
 }
 function examPage() {
   return `<h1>Gamla tentor</h1><p class="lead">Pröva att formulera ett resonemang – med en riktig tentafråga som startpunkt.</p><div class="note"><strong>Andra lärosätens material.</strong> Samlingen nedan består av Lunds original-PDF:er. Den är övningsmaterial och visar inte vad som kommer på Umeås examination. Studenters svar är inte officiella facit.</div><h2>Börja med filosofins historia</h2><p>I häftet publicerat HT 2026: filosofins historia på PDF-sidorna 1–4. I HT 2025: sidorna 1–4. Läs alltid tentans egna instruktioner.</p><ol class="steps"><li><span>Välj en fråga som hör till ett område du läst i din egen kurs.</span></li><li><span>Skriv först utan stöd: förklara tesen, återge ett argument och pröva en invändning.</span></li><li><span>Kontrollera mot föreläsning och originaltext. Spara vilka begrepp du behöver repetera.</span></li></ol><h2>31 häften · Originalkällor</h2><p class="small">Inventering från 29 september 2026. Publiceringstermin är inte alltid tentadatum. Samma tenta kan förekomma i flera häften. Länkarna kräver internet.</p><div class="tablewrap"><table><thead><tr><th>Ämne och publicering</th><th>Original</th><th>Sidor</th></tr></thead><tbody>${exams.map(e=>`<tr><td>${e.file.includes('FPRA')?'Praktisk filosofi':'Teoretisk filosofi'}<br><small>${esc(e.term)}</small></td><td><a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.label)}</a></td><td>${e.pages}</td></tr>`).join('')}</tbody></table></div><p class="small">Den befintliga lokala tentasamlingen innehåller nedladdade kopior; här länkas till universitetets original.</p>`;
@@ -96,6 +115,8 @@ function rate(key,value) {
 document.addEventListener('click',event=>{
   if(event.target.closest('.skip')){event.preventDefault();content.focus();content.scrollIntoView({block:'start'});return;}
   const b=event.target.closest('button');if(!b)return;
+  if(b.dataset.termQuery){results.hidden=true;search.value='';location.hash='glossary?q='+encodeURIComponent(b.dataset.termQuery);}
+  if(b.dataset.letter){termLetter=b.dataset.letter;updateGlossary();}
   if(b.dataset.page)navigate(b.dataset.page);
   if(b.dataset.practiceCourse){course=b.dataset.practiceCourse;topic='all';index=0;navigate('practice');}
   if(b.dataset.practiceTopic){topic=b.dataset.practiceTopic;course=topics.find(t=>t.id===topic).course;index=0;navigate('practice');}
@@ -106,21 +127,23 @@ document.addEventListener('click',event=>{
 });
 document.addEventListener('change',event=>{
   const e=event.target;
+  if(e.id==='term-course'){termCourse=e.value;updateGlossary();}
   if(e.id==='course-filter'){course=e.value;topic='all';index=0;render(false);document.getElementById(e.id).focus();}
   if(e.id==='topic-filter'){topic=e.value;index=0;render(false);document.getElementById(e.id).focus();}
   if(e.id==='review-only'){review=e.checked;index=0;render(false);document.getElementById(e.id).focus();}
   if(e.id==='operator'){operator=e.value;render(false);document.getElementById(e.id).focus();}
 });
 document.addEventListener('input',event=>{
-  if(event.target.id==='term-search'){const start=event.target.selectionStart,end=event.target.selectionEnd;termQuery=event.target.value;render(false);const field=document.getElementById('term-search');field.focus();field.setSelectionRange(start,end);}
+  if(event.target.id==='term-search'){termQuery=event.target.value;termLetter='all';updateGlossary();}
 });
 search.addEventListener('input',()=>{
   if(!search.value.trim()){results.hidden=true;return;}
   const matches=searchTopics(topics,search.value);
-  results.innerHTML=matches.length?matches.map(t=>`<button data-page="${t.id}">${esc(t.title)}<small>${courseNames[t.course]}</small></button>`).join(''):'<p>Ingen träff. Prova ett kortare ord.</p>';
+  const terms=searchConcepts(concepts,search.value).slice(0,6);
+  results.innerHTML=(terms.length?`<p class="search-heading">Begrepp</p>${terms.map(g=>`<button data-term-query="${esc(g.name)}"><strong>${esc(g.name)}</strong><small>${esc(g.definition)}</small></button>`).join('')}`:'')+(matches.length?matches.slice(0,6).map(t=>`<button data-page="${t.id}">${esc(t.title)}<small>${courseNames[t.course]}</small></button>`).join(''):'')||'<p>Ingen träff. Prova ett kortare ord.</p>';
   results.hidden=false;
 });
 search.addEventListener('keydown',e=>{if(e.key==='Escape')results.hidden=true;if(['ArrowDown','Enter'].includes(e.key)&&!results.hidden){e.preventDefault();const b=results.querySelector('button');if(e.key==='Enter')b?.click();else b?.focus();}});
 document.addEventListener('click',e=>{if(!e.target.closest('.search-wrap'))results.hidden=true;});
-window.addEventListener('hashchange',()=>{const id=location.hash.slice(1).split('?')[0];current=titles[id]||topics.some(t=>t.id===id)?id:'home';render();});
-const initial=location.hash.slice(1).split('?')[0];current=titles[initial]||topics.some(t=>t.id===initial)?initial:'home';render(false);
+window.addEventListener('hashchange',()=>{const id=location.hash.slice(1).split('?')[0];current=titles[id]||topics.some(t=>t.id===id)?id:'home';readGlossaryURL();render();});
+const initial=location.hash.slice(1).split('?')[0];current=titles[initial]||topics.some(t=>t.id===initial)?initial:'home';readGlossaryURL();render(false);

@@ -10,7 +10,7 @@ Två kurser, samma studieplats: **Filosofins historia** och **Kritiskt tänkande
 
 - Tidskarta med dragreglage, uppspelning, geografisk zoom/panorering, 24 filosofer, åtta perioder och jämförbara livsspann.
 - 20 områden: 12 i historia och 8 i kritiskt tänkande.
-- 112 begreppsförklaringar, enkla exempel och vanliga fallgropar.
+- Sökbart begreppsindex A–Ö med 113 förklaringar, kursfilter och delbara söklänkar. Sök exempelvis ”vad är ett axiom?”.
 - 45 egna övningsfrågor, en i taget, med dolt svarsstöd.
 - Kurs-/ämnesfilter, självskattning och repetition av frågor som inte sitter.
 - Sökning över ämnen, filosofer och begrepp.
@@ -35,6 +35,7 @@ npm run preview
 ## Redigera och bygga
 
 - `data/guide-topics.json`: pedagogiska sammanfattningar, frågor och källsidor.
+- `data/extra-concepts.json`: kompletterande begrepp med egna källor (utöver kursavsnittens termer).
 - `data/time-map.json`: källbelagda personer, perioder och idésamband.
 - `data/map-land.json`: förenklade kustkonturer från Natural Earth (public domain).
 - `data/exams.json`: metadata/länkar från tentainventeringen 29 september 2026.
