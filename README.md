@@ -4,8 +4,11 @@ Två kurser, samma studieplats: **Filosofins historia** och **Kritiskt tänkande
 
 ## Öppna guiden
 
+[Öppna guiden på GitHub Pages](https://rajumidfleet.github.io/filosofi-a-study/guide.html) · [Gå direkt till tidskartan](https://rajumidfleet.github.io/filosofi-a-study/guide.html#time-map)
+
 `guide.html` är en självständig HTML-fil med samma lugna upplägg som biologiguiden:
 
+- Tidskarta med dragreglage, uppspelning, geografisk zoom/panorering, 24 filosofer, åtta perioder och jämförbara livsspann.
 - 20 områden: 12 i historia och 8 i kritiskt tänkande.
 - 112 begreppsförklaringar, enkla exempel och vanliga fallgropar.
 - 45 egna övningsfrågor, en i taget, med dolt svarsstöd.
@@ -32,6 +35,8 @@ npm run preview
 ## Redigera och bygga
 
 - `data/guide-topics.json`: pedagogiska sammanfattningar, frågor och källsidor.
+- `data/time-map.json`: källbelagda personer, perioder och idésamband.
+- `data/map-land.json`: förenklade kustkonturer från Natural Earth (public domain).
 - `data/exams.json`: metadata/länkar från tentainventeringen 29 september 2026.
 - `guide/`: HTML-skal, stilar, rendering och testbara hjälpmetoder.
 - `scripts/build-guide.mjs`: validerar innehåll och bygger en fristående `guide.html`.

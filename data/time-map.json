@@ -1,0 +1,833 @@
+{
+  "people": [
+    {
+      "id": "thales",
+      "name": "Thales",
+      "birth": -620,
+      "death": -546,
+      "approximate": true,
+      "topic": "forsokratikerna",
+      "focusYear": -585,
+      "place": {
+        "name": "Miletos",
+        "lat": 37.5,
+        "lon": 27.3,
+        "note": "Född i Miletos enligt den antika traditionen. Ungefärlig ortsmarkör; visar en livsanknytning, inte var personen var det valda året."
+      },
+      "idea": "Vatten anges som alltings grund.",
+      "change": "Söker en gemensam förklaring till naturens mångfald. Hans idéer är kända genom senare författare; vi har inga säkra egna texter.",
+      "sources": [
+        {
+          "title": "Internet Encyclopedia of Philosophy: Thales of Miletus",
+          "url": "https://iep.utm.edu/thales/"
+        }
+      ]
+    },
+    {
+      "id": "anaximandros",
+      "name": "Anaximandros",
+      "birth": -610,
+      "death": -546,
+      "approximate": true,
+      "topic": "forsokratikerna",
+      "focusYear": -550,
+      "place": {
+        "name": "Miletos",
+        "lat": 37.5,
+        "lon": 27.3,
+        "note": "Filosof från Miletos. Ungefärlig ortsmarkör; visar en livsanknytning, inte var personen var det valda året."
+      },
+      "idea": "Apeiron: det obestämda eller gränslösa som ursprung.",
+      "change": "Förklaringen söks i något mer grundläggande än ett bestämt ämne som vatten. Endast ett kort textfragment och senare vittnesmål återstår.",
+      "sources": [
+        {
+          "title": "Internet Encyclopedia of Philosophy: Anaximander",
+          "url": "https://iep.utm.edu/anaximander/"
+        }
+      ]
+    },
+    {
+      "id": "pythagoras",
+      "name": "Pythagoras",
+      "birth": -570,
+      "death": -490,
+      "approximate": true,
+      "topic": "forsokratikerna",
+      "focusYear": -530,
+      "place": {
+        "name": "Kroton",
+        "lat": 39.1,
+        "lon": 17.1,
+        "note": "Samlade efterföljare i Kroton i södra Italien. Ungefärlig ortsmarkör; visar en livsanknytning, inte var personen var det valda året."
+      },
+      "idea": "En filosofisk livsform där själens öde och ordning är centrala.",
+      "change": "Vidgar naturfrågorna mot hur man bör leva. Många matematiska läror som brukar tillskrivas honom hör till senare pythagoréer; detta är en fördjupning till kursområdet.",
+      "sources": [
+        {
+          "title": "Stanford Encyclopedia of Philosophy: Pythagoras",
+          "url": "https://plato.stanford.edu/entries/pythagoras/"
+        }
+      ]
+    },
+    {
+      "id": "herakleitos",
+      "name": "Herakleitos",
+      "birth": -540,
+      "death": -480,
+      "approximate": true,
+      "topic": "forsokratikerna",
+      "focusYear": -500,
+      "place": {
+        "name": "Efesos",
+        "lat": 37.9,
+        "lon": 27.3,
+        "note": "Förknippad med hemstaden Efesos. Ungefärlig ortsmarkör; visar en livsanknytning, inte var personen var det valda året."
+      },
+      "idea": "Förändring och motsättningar hör ihop med en ordning, logos.",
+      "change": "Frågan blir hur ordning kan finnas i förändringen. Att allt bara är kaos är därför en missvisande sammanfattning.",
+      "sources": [
+        {
+          "title": "Stanford Encyclopedia of Philosophy: Heraclitus",
+          "url": "https://plato.stanford.edu/entries/heraclitus/"
+        },
+        {
+          "title": "Jan Garrett, Western Kentucky University: Presocratics Table",
+          "url": "https://people.wku.edu/jan.garrett/302/presocra.htm"
+        }
+      ]
+    },
+    {
+      "id": "parmenides",
+      "name": "Parmenides",
+      "birth": -515,
+      "death": -450,
+      "approximate": true,
+      "topic": "forsokratikerna",
+      "focusYear": -480,
+      "place": {
+        "name": "Elea",
+        "lat": 40.2,
+        "lon": 15.2,
+        "note": "Filosof från Elea i södra Italien. Ungefärlig ortsmarkör; visar en livsanknytning, inte var personen var det valda året."
+      },
+      "idea": "Vad som är kan inte utan vidare förklaras genom vad som inte är.",
+      "change": "Argument om varat utmanar vardagens bild av tillblivelse och förändring. Hur hans dikt ska förstås är omstritt; levnadsåren är särskilt osäkra.",
+      "sources": [
+        {
+          "title": "Stanford Encyclopedia of Philosophy: Parmenides",
+          "url": "https://plato.stanford.edu/entries/parmenides/"
+        },
+        {
+          "title": "Jan Garrett, Western Kentucky University: Presocratics Table",
+          "url": "https://people.wku.edu/jan.garrett/302/presocra.htm"
+        }
+      ]
+    },
+    {
+      "id": "sokrates",
+      "name": "Sokrates",
+      "birth": -469,
+      "death": -399,
+      "approximate": true,
+      "topic": "sokrates-platon",
+      "focusYear": -420,
+      "place": {
+        "name": "Aten",
+        "lat": 38.0,
+        "lon": 23.7,
+        "note": "Verkade och ställdes inför rätta i Aten. Ungefärlig ortsmarkör; visar en livsanknytning, inte var personen var det valda året."
+      },
+      "idea": "Pröva vad vi menar med exempelvis mod, rättvisa och ett gott liv.",
+      "change": "Samtal och motfrågor kan avslöja motsägelser i det vi tror oss veta. Han skrev inget själv; olika efterföljares bilder av honom måste skiljas åt.",
+      "sources": [
+        {
+          "title": "Stanford Encyclopedia of Philosophy: Socrates",
+          "url": "https://plato.stanford.edu/entries/socrates/"
+        }
+      ]
+    },
+    {
+      "id": "demokritos",
+      "name": "Demokritos",
+      "birth": -460,
+      "death": -370,
+      "approximate": true,
+      "topic": "forsokratikerna",
+      "focusYear": -420,
+      "place": {
+        "name": "Abdera",
+        "lat": 40.9,
+        "lon": 25.0,
+        "note": "Medborgare i Abdera enligt antika uppgifter. Ungefärlig ortsmarkör; visar en livsanknytning, inte var personen var det valda året."
+      },
+      "idea": "Oföränderliga atomer rör sig och bildar skiftande helheter i tomrummet.",
+      "change": "Atomismen förklarar förändring genom omgruppering. Därmed kan grunddelarna bestå medan sammansättningarna förändras; detta är inte modern atomfysik.",
+      "sources": [
+        {
+          "title": "Stanford Encyclopedia of Philosophy: Democritus",
+          "url": "https://plato.stanford.edu/entries/democritus/"
+        },
+        {
+          "title": "Jan Garrett, Western Kentucky University: Presocratics Table",
+          "url": "https://people.wku.edu/jan.garrett/302/presocra.htm"
+        }
+      ]
+    },
+    {
+      "id": "platon",
+      "name": "Platon",
+      "birth": -427,
+      "death": -347,
+      "approximate": true,
+      "topic": "sokrates-platon",
+      "focusYear": -380,
+      "place": {
+        "name": "Aten",
+        "lat": 38.0,
+        "lon": 23.7,
+        "note": "Grundade Akademin i Aten. Ungefärlig ortsmarkör; visar en livsanknytning, inte var personen var det valda året."
+      },
+      "idea": "Kunskap, rättvisa och verklighet undersöks genom filosofiska dialoger.",
+      "change": "Utvecklar bland annat idéläran: det sinnliga och föränderliga ställs i relation till stabila former. Dialogernas Sokrates är inte alltid den historiske Sokrates.",
+      "sources": [
+        {
+          "title": "Internet Encyclopedia of Philosophy: Plato",
+          "url": "https://iep.utm.edu/plato/"
+        },
+        {
+          "title": "Stanford Encyclopedia of Philosophy: Plato",
+          "url": "https://plato.stanford.edu/entries/plato/"
+        }
+      ]
+    },
+    {
+      "id": "aristoteles",
+      "name": "Aristoteles",
+      "birth": -384,
+      "death": -322,
+      "approximate": false,
+      "topic": "aristoteles",
+      "focusYear": -335,
+      "place": {
+        "name": "Aten",
+        "lat": 38.0,
+        "lon": 23.7,
+        "note": "Studerade vid Akademin och grundade Lykeion i Aten. Ungefärlig ortsmarkör; visar en livsanknytning, inte var personen var det valda året."
+      },
+      "idea": "Förstå ting genom form och materia, möjligheter och förverkligande.",
+      "change": "Utvecklar systematiska undersökningar av natur, argument och etik. Formen förklarar det enskilda tinget; dygder tränas genom handling.",
+      "sources": [
+        {
+          "title": "Stanford Encyclopedia of Philosophy: Aristotle",
+          "url": "https://plato.stanford.edu/entries/aristotle/"
+        }
+      ]
+    },
+    {
+      "id": "epikuros",
+      "name": "Epikuros",
+      "birth": -341,
+      "death": -270,
+      "approximate": false,
+      "topic": "antikens-etik",
+      "focusYear": -300,
+      "place": {
+        "name": "Aten",
+        "lat": 38.0,
+        "lon": 23.7,
+        "note": "Grundade sin skola Trädgården i Aten. Ungefärlig ortsmarkör; visar en livsanknytning, inte var personen var det valda året."
+      },
+      "idea": "Ett gott liv kräver klokt valda njutningar, vänskap och frihet från oro.",
+      "change": "Filosofin ska minska onödig rädsla och hjälpa oss skilja nödvändiga behov från begär som skapar oro. Njutning betyder inte ständig överkonsumtion.",
+      "sources": [
+        {
+          "title": "Stanford Encyclopedia of Philosophy: Epicurus",
+          "url": "https://plato.stanford.edu/entries/epicurus/"
+        }
+      ]
+    },
+    {
+      "id": "zenon",
+      "name": "Zenon från Kition",
+      "birth": -334,
+      "death": -262,
+      "approximate": true,
+      "topic": "antikens-etik",
+      "focusYear": -300,
+      "place": {
+        "name": "Aten",
+        "lat": 38.0,
+        "lon": 23.7,
+        "note": "Grundade den stoiska skolan i Aten. Ungefärlig ortsmarkör; visar en livsanknytning, inte var personen var det valda året."
+      },
+      "idea": "Stoicismen knyter ett gott liv till dygd och förnuft.",
+      "change": "Skolan förenar etik, logik och naturfilosofi. Dess etiska mål skiljer sig från Epikuros njutningslära. Zenon från Kition är inte Zenon från Elea.",
+      "sources": [
+        {
+          "title": "Stanford Encyclopedia of Philosophy: Stoicism",
+          "url": "https://plato.stanford.edu/entries/stoicism/"
+        },
+        {
+          "title": "The Cyprus Journal of Sciences 22 (2024): Zeno of Citium: His Life and Works, s. 4",
+          "url": "https://ac.ac.cy/wp-content/uploads/2025/06/THE-CYPRUS-JOURNAL-OF-SCIENCES-VOL.-22-2024.pdf"
+        }
+      ]
+    },
+    {
+      "id": "descartes",
+      "name": "René Descartes",
+      "birth": 1596,
+      "death": 1650,
+      "approximate": false,
+      "topic": "descartes",
+      "focusYear": 1640,
+      "place": {
+        "name": "Paris",
+        "lat": 48.9,
+        "lon": 2.3,
+        "note": "Arbetade i Paris och deltog i Mersennes intellektuella krets. Ungefärlig ortsmarkör; visar en livsanknytning, inte var personen var det valda året."
+      },
+      "idea": "Metodiskt tvivel prövar vad som kan ge säker kunskap.",
+      "change": "I meditationerna söker han en säker utgångspunkt i tänkandet och argumenterar för skillnaden mellan tänkande själ och utsträckt kropp.",
+      "sources": [
+        {
+          "title": "Stanford Encyclopedia of Philosophy: René Descartes",
+          "url": "https://plato.stanford.edu/entries/descartes/"
+        }
+      ]
+    },
+    {
+      "id": "cavendish",
+      "name": "Margaret Cavendish",
+      "birth": 1623,
+      "death": 1673,
+      "approximate": false,
+      "topic": "wollstonecraft",
+      "focusYear": 1660,
+      "place": {
+        "name": "Antwerpen",
+        "lat": 51.2,
+        "lon": 4.4,
+        "note": "Bodde i Antwerpen under exilen före återkomsten till England. Ungefärlig ortsmarkör; visar en livsanknytning, inte var personen var det valda året."
+      },
+      "idea": "Naturen förstås som aktiv materia med egna förmågor.",
+      "change": "Utmanar mekaniska förklaringar av naturen. Hon är med här som fördjupning till frågan om filosofins kanon, inte som elev eller efterföljare till Wollstonecraft.",
+      "sources": [
+        {
+          "title": "Stanford Encyclopedia of Philosophy: Margaret Lucas Cavendish",
+          "url": "https://plato.stanford.edu/entries/margaret-cavendish/"
+        }
+      ]
+    },
+    {
+      "id": "conway",
+      "name": "Anne Conway",
+      "birth": 1631,
+      "death": 1679,
+      "approximate": false,
+      "topic": "wollstonecraft",
+      "focusYear": 1670,
+      "place": {
+        "name": "London",
+        "lat": 51.5,
+        "lon": -0.1,
+        "note": "Född och uppvuxen i London. Ungefärlig ortsmarkör; visar en livsanknytning, inte var personen var det valda året."
+      },
+      "idea": "Skapade varelser har en levande natur; kropp och ande skiljs inte strikt åt.",
+      "change": "Kritiserar bland annat Descartes uppdelning av kropp och själ. Fördjupning till filosofins kanon: hennes utbildning skedde genom brev, eftersom universitetet var stängt för kvinnor.",
+      "sources": [
+        {
+          "title": "Stanford Encyclopedia of Philosophy: Lady Anne Conway",
+          "url": "https://plato.stanford.edu/entries/conway/"
+        }
+      ]
+    },
+    {
+      "id": "spinoza",
+      "name": "Baruch Spinoza",
+      "birth": 1632,
+      "death": 1677,
+      "approximate": false,
+      "topic": "spinoza-leibniz",
+      "focusYear": 1670,
+      "place": {
+        "name": "Haag",
+        "lat": 52.1,
+        "lon": 4.3,
+        "note": "Bodde och dog i Haag. Ungefärlig ortsmarkör; visar en livsanknytning, inte var personen var det valda året."
+      },
+      "idea": "Gud eller naturen är den enda substansen.",
+      "change": "Tänkande och utsträckning förstås som attribut hos samma substans. Kunskap om hur vi bestäms av orsaker spelar en central roll för ett friare liv.",
+      "sources": [
+        {
+          "title": "Stanford Encyclopedia of Philosophy: Baruch Spinoza",
+          "url": "https://plato.stanford.edu/entries/spinoza/"
+        }
+      ]
+    },
+    {
+      "id": "locke",
+      "name": "John Locke",
+      "birth": 1632,
+      "death": 1704,
+      "approximate": false,
+      "topic": "locke-berkeley",
+      "focusYear": 1690,
+      "place": {
+        "name": "London",
+        "lat": 51.5,
+        "lon": -0.1,
+        "note": "Arbetade i London för Lord Ashley. Ungefärlig ortsmarkör; visar en livsanknytning, inte var personen var det valda året."
+      },
+      "idea": "Idéer har sitt ursprung i erfarenhet: sinnesintryck och reflektion.",
+      "change": "I stället för medfödda idéer undersöks hur sinnet får och bearbetar sitt innehåll. Det innebär inte att sinnet är passivt i allt det gör.",
+      "sources": [
+        {
+          "title": "Stanford Encyclopedia of Philosophy: John Locke",
+          "url": "https://plato.stanford.edu/entries/locke/"
+        }
+      ]
+    },
+    {
+      "id": "leibniz",
+      "name": "Gottfried Wilhelm Leibniz",
+      "birth": 1646,
+      "death": 1716,
+      "approximate": false,
+      "topic": "spinoza-leibniz",
+      "focusYear": 1700,
+      "place": {
+        "name": "Hannover",
+        "lat": 52.4,
+        "lon": 9.7,
+        "note": "Arbetade under större delen av sitt senare liv vid hovet i Hannover. Ungefärlig ortsmarkör; visar en livsanknytning, inte var personen var det valda året."
+      },
+      "idea": "Verkligheten förstås genom enkla substanser, monader.",
+      "change": "Ett alternativ till både en enda substans och en rent mekanisk värld: mångfald och ordning förklaras genom monader och förutbestämd harmoni.",
+      "sources": [
+        {
+          "title": "Stanford Encyclopedia of Philosophy: Gottfried Wilhelm Leibniz",
+          "url": "https://plato.stanford.edu/entries/leibniz/"
+        }
+      ]
+    },
+    {
+      "id": "berkeley",
+      "name": "George Berkeley",
+      "birth": 1685,
+      "death": 1753,
+      "approximate": false,
+      "topic": "locke-berkeley",
+      "focusYear": 1710,
+      "place": {
+        "name": "Dublin",
+        "lat": 53.3,
+        "lon": -6.3,
+        "note": "Studerade och arbetade vid Trinity College i Dublin. Ungefärlig ortsmarkör; visar en livsanknytning, inte var personen var det valda året."
+      },
+      "idea": "Sinnliga ting förstås som idéer som uppfattas av andar.",
+      "change": "Ifrågasätter materiell substans bakom det upplevda. Det innebär inte att vardagsvärlden bara försvinner när en enskild människa slutar titta.",
+      "sources": [
+        {
+          "title": "Stanford Encyclopedia of Philosophy: George Berkeley",
+          "url": "https://plato.stanford.edu/entries/berkeley/"
+        }
+      ]
+    },
+    {
+      "id": "hume",
+      "name": "David Hume",
+      "birth": 1711,
+      "death": 1776,
+      "approximate": false,
+      "topic": "hume",
+      "focusYear": 1750,
+      "place": {
+        "name": "Edinburgh",
+        "lat": 56.0,
+        "lon": -3.2,
+        "note": "Född i Edinburgh och senare bibliotekarie där. Ungefärlig ortsmarkör; visar en livsanknytning, inte var personen var det valda året."
+      },
+      "idea": "Undersök erfarenhetens gränser och hur våra förväntningar uppstår.",
+      "change": "Vana hjälper förklara varför vi väntar oss att framtiden liknar det förflutna. Att vi faktiskt gör en slutledning är inte samma sak som att den har en säker rationell grund.",
+      "sources": [
+        {
+          "title": "Stanford Encyclopedia of Philosophy: David Hume",
+          "url": "https://plato.stanford.edu/entries/hume/"
+        }
+      ]
+    },
+    {
+      "id": "kant",
+      "name": "Immanuel Kant",
+      "birth": 1724,
+      "death": 1804,
+      "approximate": false,
+      "topic": "kant-teoretisk",
+      "focusYear": 1780,
+      "place": {
+        "name": "Königsberg / Kaliningrad",
+        "lat": 54.7,
+        "lon": 20.5,
+        "note": "Född och verksam i dåvarande Königsberg. Ungefärlig ortsmarkör; visar en livsanknytning, inte var personen var det valda året."
+      },
+      "idea": "Erfarenhet formas genom både sinnliga intryck och våra kunskapsförmågor.",
+      "change": "Den kritiska filosofin frågar vad som gör erfarenhet möjlig och var kunskapens gränser går. I etiken betonas autonomi och principer som kan gälla för alla.",
+      "sources": [
+        {
+          "title": "Stanford Encyclopedia of Philosophy: Immanuel Kant",
+          "url": "https://plato.stanford.edu/entries/kant/"
+        }
+      ]
+    },
+    {
+      "id": "bentham",
+      "name": "Jeremy Bentham",
+      "birth": 1748,
+      "death": 1832,
+      "approximate": false,
+      "topic": "bentham-mill-nietzsche",
+      "focusYear": 1790,
+      "place": {
+        "name": "London",
+        "lat": 51.5,
+        "lon": -0.1,
+        "note": "Född, verksam och död i London. Ungefärlig ortsmarkör; visar en livsanknytning, inte var personen var det valda året."
+      },
+      "idea": "Bedöm handlingar och institutioner efter deras konsekvenser för välbefinnandet.",
+      "change": "Nyttoprincipen används för att kritisera och reformera lagar. Varje berörd persons välbefinnande ska räknas, inte bara privilegierade gruppers.",
+      "sources": [
+        {
+          "title": "Stanford Encyclopedia of Philosophy: Jeremy Bentham",
+          "url": "https://plato.stanford.edu/entries/bentham/"
+        }
+      ]
+    },
+    {
+      "id": "wollstonecraft",
+      "name": "Mary Wollstonecraft",
+      "birth": 1759,
+      "death": 1797,
+      "approximate": false,
+      "topic": "wollstonecraft",
+      "focusYear": 1790,
+      "place": {
+        "name": "London",
+        "lat": 51.5,
+        "lon": -0.1,
+        "note": "Född i London och verksam där som författare. Ungefärlig ortsmarkör; visar en livsanknytning, inte var personen var det valda året."
+      },
+      "idea": "Kvinnors utbildning och självständighet är frågor om förnuft och rättvisa.",
+      "change": "Utmanar föreställningen att kvinnors underordning följer av naturen. Sociala villkor och utbildning måste undersökas innan observerade skillnader förklaras.",
+      "sources": [
+        {
+          "title": "Stanford Encyclopedia of Philosophy: Mary Wollstonecraft",
+          "url": "https://plato.stanford.edu/entries/wollstonecraft/"
+        }
+      ]
+    },
+    {
+      "id": "mill",
+      "name": "John Stuart Mill",
+      "birth": 1806,
+      "death": 1873,
+      "approximate": false,
+      "topic": "bentham-mill-nietzsche",
+      "focusYear": 1860,
+      "place": {
+        "name": "London",
+        "lat": 51.5,
+        "lon": -0.1,
+        "note": "Född och länge verksam i London. Ungefärlig ortsmarkör; visar en livsanknytning, inte var personen var det valda året."
+      },
+      "idea": "Utvecklar utilitarism och försvarar individuell frihet.",
+      "change": "Skiljer mellan njutningars kvalitet och diskuterar när samhället får begränsa individen. Förhållandet mellan frihet, nytta och sociala normer blir centralt.",
+      "sources": [
+        {
+          "title": "Stanford Encyclopedia of Philosophy: John Stuart Mill",
+          "url": "https://plato.stanford.edu/entries/mill/"
+        }
+      ]
+    },
+    {
+      "id": "nietzsche",
+      "name": "Friedrich Nietzsche",
+      "birth": 1844,
+      "death": 1900,
+      "approximate": false,
+      "topic": "bentham-mill-nietzsche",
+      "focusYear": 1880,
+      "place": {
+        "name": "Basel",
+        "lat": 47.6,
+        "lon": 7.6,
+        "note": "Professor i klassisk filologi i Basel 1869–1879. Ungefärlig ortsmarkör; visar en livsanknytning, inte var personen var det valda året."
+      },
+      "idea": "Undersök hur moraliska värden har uppkommit och vilka liv de gynnar.",
+      "change": "Genealogisk kritik frågar efter värderingarnas historia och funktion. Att förklara en morals ursprung är en annan uppgift än att bara tillämpa dess regler.",
+      "sources": [
+        {
+          "title": "Stanford Encyclopedia of Philosophy: Friedrich Nietzsche",
+          "url": "https://plato.stanford.edu/entries/nietzsche/"
+        }
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "id": "natur",
+      "title": "Natur och förändring",
+      "start": -650,
+      "end": -451,
+      "focusYear": -550,
+      "summary": "I de grekiska städerna kring Egeiska havet och södra Italien formuleras konkurrerande svar om naturens grund och förändring.",
+      "question": "Vad måste bestå för att något ska kunna förändras?"
+    },
+    {
+      "id": "aten",
+      "title": "Samtal, kunskap och former",
+      "start": -450,
+      "end": -324,
+      "focusYear": -380,
+      "summary": "Sokrates, Platon och Aristoteles förknippas med Aten. Etik, kunskap, politik och natur studeras på skilda sätt; äldre naturfilosofi fortsätter samtidigt.",
+      "question": "Vad skiljer ett gott argument från en övertygande åsikt?"
+    },
+    {
+      "id": "liv",
+      "title": "Filosofin som livsväg",
+      "start": -323,
+      "end": 199,
+      "focusYear": -300,
+      "summary": "Epikurism och stoicism utvecklar olika svar på hur vi bör leva. Urvalets personer visar skolornas början; traditionerna fortsätter långt efter grundarnas liv.",
+      "question": "Är dygd eller njutning det yttersta målet?"
+    },
+    {
+      "id": "lucka",
+      "title": "Ett glapp i vårt kursurval",
+      "start": 200,
+      "end": 1500,
+      "focusYear": 1000,
+      "summary": "Här saknas personkort i denna version. Filosofin upphör inte: grekiska, latinska, arabiska och judiska traditioner tolkar, översätter och utvecklar bland annat Platon och Aristoteles.",
+      "question": "Hur förändras en tanke när den översätts och diskuteras i nya sammanhang?"
+    },
+    {
+      "id": "tidigmodern",
+      "title": "Kunskapens grund och verklighetens natur",
+      "start": 1501,
+      "end": 1699,
+      "focusYear": 1670,
+      "summary": "Descartes, Spinoza och Leibniz ger olika svar om kunskap och substans. Locke, Cavendish och Conway visar andra vägar och invändningar under samma period.",
+      "question": "Är kropp och tanke två slags verklighet eller delar av samma natur?"
+    },
+    {
+      "id": "erfarenhet",
+      "title": "Erfarenhet, vana och kunskapens gränser",
+      "start": 1700,
+      "end": 1779,
+      "focusYear": 1750,
+      "summary": "Berkeley och Hume undersöker vad erfarenheten berättigar oss att hävda. Kant växer upp i denna debatt och utvecklar senare sin kritiska filosofi.",
+      "question": "Vad kan sinneserfarenhet visa, och vad lägger vi själva till?"
+    },
+    {
+      "id": "kritik",
+      "title": "Kritik, rättigheter och nytta",
+      "start": 1780,
+      "end": 1839,
+      "focusYear": 1790,
+      "summary": "Kants kritiska filosofi, Benthams nyttoprincip och Wollstonecrafts utbildningskritik möts i tiden. De är olika projekt, inte steg i en enda rak utveckling.",
+      "question": "Vilka får räknas som självständiga och jämlika människor?"
+    },
+    {
+      "id": "varden",
+      "title": "Frihet och värderingarnas historia",
+      "start": 1840,
+      "end": 1900,
+      "focusYear": 1860,
+      "summary": "Mill undersöker frihet och utvecklar utilitarismen. Nietzsche ifrågasätter nedärvda moraliska värden. Kursens historiska urval avslutas här, men filosofin fortsätter.",
+      "question": "När bör vi förbättra en moralisk regel, och när bör vi granska regelns ursprung?"
+    }
+  ],
+  "links": [
+    {
+      "to": "anaximandros",
+      "label": "Två svar från Miletos",
+      "note": "Jämför vatten med apeiron. Linjen visar en idéjämförelse; den bevisar inte ett formellt lärarförhållande.",
+      "kind": "comparison",
+      "year": -550,
+      "approximate": true,
+      "sources": [
+        {
+          "title": "Internet Encyclopedia of Philosophy: Anaximander",
+          "url": "https://iep.utm.edu/anaximander/"
+        }
+      ],
+      "from": "thales"
+    },
+    {
+      "to": "parmenides",
+      "label": "Förändring och beständighet",
+      "note": "Pedagogisk jämförelse av två problemställningar. Ett direkt svar mellan personerna är omstritt och påstås inte här.",
+      "kind": "comparison",
+      "year": -480,
+      "approximate": true,
+      "sources": [
+        {
+          "title": "Stanford Encyclopedia of Philosophy: Parmenides",
+          "url": "https://plato.stanford.edu/entries/parmenides/"
+        },
+        {
+          "title": "Jan Garrett, Western Kentucky University: Presocratics Table",
+          "url": "https://people.wku.edu/jan.garrett/302/presocra.htm"
+        }
+      ],
+      "from": "herakleitos"
+    },
+    {
+      "to": "demokritos",
+      "label": "Atomismen möter förändringsproblemet",
+      "note": "Atomismen brukar tolkas som ett svar på Parmenides utmaning: bestående grunddelar kan omgrupperas. Året anger ett ungefärligt sammanhang, inte ett möte.",
+      "kind": "response",
+      "year": -420,
+      "approximate": true,
+      "sources": [
+        {
+          "title": "Stanford Encyclopedia of Philosophy: Democritus",
+          "url": "https://plato.stanford.edu/entries/democritus/"
+        },
+        {
+          "title": "Jan Garrett, Western Kentucky University: Presocratics Table",
+          "url": "https://people.wku.edu/jan.garrett/302/presocra.htm"
+        }
+      ],
+      "from": "parmenides"
+    },
+    {
+      "to": "platon",
+      "label": "Sokrates och hans efterföljare",
+      "note": "Platon hörde till Sokrates krets. Lärarrelation är en förenklad etikett: Sokrates förnekade själv att han undervisade på vanligt vis. Årtalet är ungefärligt.",
+      "kind": "teacher",
+      "year": -405,
+      "approximate": true,
+      "sources": [
+        {
+          "title": "Internet Encyclopedia of Philosophy: Plato",
+          "url": "https://iep.utm.edu/plato/"
+        },
+        {
+          "title": "Stanford Encyclopedia of Philosophy: Socrates",
+          "url": "https://plato.stanford.edu/entries/socrates/"
+        }
+      ],
+      "from": "sokrates"
+    },
+    {
+      "to": "aristoteles",
+      "label": "Akademin",
+      "note": "Aristoteles kom som ungefär sjuttonåring till Platons Akademi och stannade fram till Platons död.",
+      "kind": "teacher",
+      "year": -367,
+      "approximate": true,
+      "sources": [
+        {
+          "title": "Stanford Encyclopedia of Philosophy: Aristotle",
+          "url": "https://plato.stanford.edu/entries/aristotle/"
+        }
+      ],
+      "from": "platon"
+    },
+    {
+      "to": "zenon",
+      "label": "Olika vägar till ett gott liv",
+      "note": "Samtida skolor i Aten jämförs: epikureisk njutning och stoisk dygd är olika slutmål. Ingen lärarrelation avses.",
+      "kind": "comparison",
+      "year": -300,
+      "approximate": true,
+      "sources": [
+        {
+          "title": "Stanford Encyclopedia of Philosophy: Stoicism",
+          "url": "https://plato.stanford.edu/entries/stoicism/"
+        },
+        {
+          "title": "The Cyprus Journal of Sciences 22 (2024): Zenons levnadsår",
+          "url": "https://ac.ac.cy/wp-content/uploads/2025/06/THE-CYPRUS-JOURNAL-OF-SCIENCES-VOL.-22-2024.pdf"
+        }
+      ],
+      "from": "epikuros"
+    },
+    {
+      "to": "spinoza",
+      "label": "Från dualism till en substans",
+      "note": "Spinoza bearbetar kartesiska frågor men utvecklar en annan teori om substans. Årtalet anknyter till hans bok om Descartes 1663.",
+      "kind": "response",
+      "year": 1663,
+      "approximate": true,
+      "sources": [
+        {
+          "title": "Stanford Encyclopedia of Philosophy: Baruch Spinoza",
+          "url": "https://plato.stanford.edu/entries/spinoza/"
+        }
+      ],
+      "from": "descartes"
+    },
+    {
+      "to": "conway",
+      "label": "Kritik av kropp–själ-dualismen",
+      "note": "Conway kritiserar Descartes och utvecklar sin egen ontologi. Årtalet är en grov placering av hennes sena arbete, inte ett känt samtal.",
+      "kind": "response",
+      "year": 1670,
+      "approximate": true,
+      "sources": [
+        {
+          "title": "Stanford Encyclopedia of Philosophy: Lady Anne Conway",
+          "url": "https://plato.stanford.edu/entries/conway/"
+        }
+      ],
+      "from": "descartes"
+    },
+    {
+      "to": "berkeley",
+      "label": "Vad finns bakom våra idéer?",
+      "note": "Berkeley kritiserar materiell substans och distinktionen mellan primära och sekundära egenskaper. Årtalet anknyter till Principles från 1710.",
+      "kind": "response",
+      "year": 1710,
+      "approximate": true,
+      "sources": [
+        {
+          "title": "Stanford Encyclopedia of Philosophy: George Berkeley",
+          "url": "https://plato.stanford.edu/entries/berkeley/"
+        }
+      ],
+      "from": "locke"
+    },
+    {
+      "to": "mill",
+      "label": "Utilitarismen omprövas",
+      "note": "Mill tar upp och omarbetar den benthamska traditionen, bland annat genom njutningarnas kvalitet. Linjen anger intellektuell respons, inte en formell lärartjänst.",
+      "kind": "response",
+      "year": 1861,
+      "approximate": true,
+      "sources": [
+        {
+          "title": "Stanford Encyclopedia of Philosophy: John Stuart Mill",
+          "url": "https://plato.stanford.edu/entries/mill/"
+        }
+      ],
+      "from": "bentham"
+    },
+    {
+      "from": "hume",
+      "to": "kant",
+      "kind": "response",
+      "year": 1781,
+      "approximate": true,
+      "label": "Erfarenhet och syntetiskt a priori",
+      "note": "Kant ifrågasätter att all kunskap måste rymmas i Humes uppdelning mellan idérelationer och fakta. Året anknyter till Kritik av det rena förnuftet, inte ett personligt möte.",
+      "sources": [
+        {
+          "title": "Stanford Encyclopedia of Philosophy: David Hume",
+          "url": "https://plato.stanford.edu/entries/hume/"
+        }
+      ]
+    }
+  ]
+}
