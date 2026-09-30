@@ -1,0 +1,380 @@
+[
+  {
+    "url": "https://www.fil.lu.se/media/utbildning/dokument/kurser/FPRA12/20262/Exempeltentor_grundkursen_i_praktisk_filosofi_fr_n_VT2026.pdf",
+    "sources": [
+      "https://www.fil.lu.se/kurs/FPRA12/",
+      "https://www.fil.lu.se/kurs/FPRA12/HT2026/"
+    ],
+    "file": "Lund_FPRA12_20262_Exempeltentor_grundkursen_i_praktisk_filosofi_fr_n_VT2026.pdf",
+    "sha256": "ecef060cd1c4d43656996716bcd285d8868c0b255740578a33e1f53f950f5f63",
+    "pages": 13,
+    "term": "HT 2026",
+    "label": "Exempeltentor grundkursen i praktisk filosofi fr n VT2026"
+  },
+  {
+    "url": "https://www.fil.lu.se/media/utbildning/dokument/kurser/FTEA13/20262/Exempeltentor_grundkursen_i_teoretisk_filosofi_fr_n_VT2026.pdf",
+    "sources": [
+      "https://www.fil.lu.se/kurs/FTEA13/",
+      "https://www.fil.lu.se/kurs/FTEA13/HT2026/"
+    ],
+    "file": "Lund_FTEA13_20262_Exempeltentor_grundkursen_i_teoretisk_filosofi_fr_n_VT2026.pdf",
+    "sha256": "870410139e292c876fd897dfba4982ab03ad2266dbbf549b728322f85053b0c2",
+    "pages": 12,
+    "term": "HT 2026",
+    "label": "Exempeltentor grundkursen i teoretisk filosofi fr n VT2026"
+  },
+  {
+    "url": "https://www.fil.lu.se/media/utbildning/dokument/kurser/FTEA12/20221/Exempeltentor_teoretisk_filosofi_grundkurs.pdf",
+    "sources": [
+      "https://www.fil.lu.se/kurs/FTEA12/",
+      "https://www.fil.lu.se/kurs/FTEA12/VT2022/",
+      "https://www.fil.lu.se/kurs/FTEA12/VT2019/"
+    ],
+    "file": "Lund_FTEA12_20221_Exempeltentor_teoretisk_filosofi_grundkurs.pdf",
+    "sha256": "e999995c199d7da910cbf8030d1ec98894194e5c84007d0a041181d951d6c8b8",
+    "pages": 24,
+    "duplicate_urls": [
+      "https://www.fil.lu.se/media/utbildning/dokument/kurser/FTEA12/20191/Exempeltentor_teoretisk_filosofi_grundkurs.pdf"
+    ],
+    "term": "VT 2022",
+    "label": "Exempeltentor teoretisk filosofi grundkurs"
+  },
+  {
+    "url": "https://www.fil.lu.se/media/utbildning/dokument/kurser/FTEA12/20221/Filosofi_fr_n_1900.pdf",
+    "sources": [
+      "https://www.fil.lu.se/kurs/FTEA12/",
+      "https://www.fil.lu.se/kurs/FTEA12/VT2022/"
+    ],
+    "file": "Lund_FTEA12_20221_Filosofi_fr_n_1900.pdf",
+    "sha256": "04f480f11a09957e82e5fa384df1f32899052da7825d1475e820d8de00ebba40",
+    "pages": 4,
+    "term": "VT 2022",
+    "label": "Filosofi fr n 1900"
+  },
+  {
+    "url": "https://www.fil.lu.se/media/utbildning/dokument/kurser/FTEA12/20221/Vetenskapsteori.pdf",
+    "sources": [
+      "https://www.fil.lu.se/kurs/FTEA12/",
+      "https://www.fil.lu.se/kurs/FTEA12/VT2022/"
+    ],
+    "file": "Lund_FTEA12_20221_Vetenskapsteori.pdf",
+    "sha256": "43f19392b885d38e7378b1b7fb0f85939054b0c93a6e6cb9c537fb5d4894418c",
+    "pages": 2,
+    "term": "VT 2022",
+    "label": "Vetenskapsteori"
+  },
+  {
+    "url": "https://www.fil.lu.se/media/utbildning/dokument/kurser/FPRA12/20182/Exempeltentor_praktisk_filosofi_gk_VT16.pdf",
+    "sources": [
+      "https://www.fil.lu.se/kurs/FPRA12/HT2018/"
+    ],
+    "file": "Lund_FPRA12_20182_Exempeltentor_praktisk_filosofi_gk_VT16.pdf",
+    "sha256": "922f7bc3108121a355acc1b3930608368deda417246f3e3431e7b6f2f17df304",
+    "pages": 11,
+    "term": "HT 2018",
+    "label": "Exempeltentor praktisk filosofi gk VT16"
+  },
+  {
+    "url": "https://www.fil.lu.se/media/utbildning/dokument/kurser/FPRA12/20182/Extentor_delkurs_3_praktisk_fil_grundkurs.pdf",
+    "sources": [
+      "https://www.fil.lu.se/kurs/FPRA12/HT2018/"
+    ],
+    "file": "Lund_FPRA12_20182_Extentor_delkurs_3_praktisk_fil_grundkurs.pdf",
+    "sha256": "95c46da3e5074915152659b5481655c31ba80f00348e9413c45079964c3847e3",
+    "pages": 4,
+    "term": "HT 2018",
+    "label": "Extentor delkurs 3 praktisk fil grundkurs"
+  },
+  {
+    "url": "https://www.fil.lu.se/media/utbildning/dokument/kurser/FPRA12/20182/Extentor_delkurs_5_FPRA12.pdf",
+    "sources": [
+      "https://www.fil.lu.se/kurs/FPRA12/HT2018/"
+    ],
+    "file": "Lund_FPRA12_20182_Extentor_delkurs_5_FPRA12.pdf",
+    "sha256": "41f0cb40cf38c80cd4309ff6d76379bff4eb19a8043af4eb1e23010d20f4ee57",
+    "pages": 4,
+    "term": "HT 2018",
+    "label": "Extentor delkurs 5 FPRA12"
+  },
+  {
+    "url": "https://www.fil.lu.se/media/utbildning/dokument/kurser/FPRA12/20192/Exempeltentor_grundkursen_praktisk_filosofi.pdf",
+    "sources": [
+      "https://www.fil.lu.se/kurs/FPRA12/HT2019/"
+    ],
+    "file": "Lund_FPRA12_20192_Exempeltentor_grundkursen_praktisk_filosofi.pdf",
+    "sha256": "7fef9a087f204601398e00777b3c7f21cda49f8a4312f35b670a88032dfcc307",
+    "pages": 12,
+    "term": "HT 2019",
+    "label": "Exempeltentor grundkursen praktisk filosofi"
+  },
+  {
+    "url": "https://www.fil.lu.se/media/utbildning/dokument/kurser/FPRA12/20202/Exempeltentor_praktisk_filosofi_grundkurs.pdf",
+    "sources": [
+      "https://www.fil.lu.se/kurs/FPRA12/HT2020/",
+      "https://www.fil.lu.se/kurs/FPRA12/HT2021/",
+      "https://www.fil.lu.se/kurs/FPRA12/VT2020/"
+    ],
+    "file": "Lund_FPRA12_20202_Exempeltentor_praktisk_filosofi_grundkurs.pdf",
+    "sha256": "66811505c7db26ba40e2ca6f468b9ef9ec5af3ba2fc27b52b8af66716746027b",
+    "pages": 15,
+    "duplicate_urls": [
+      "https://www.fil.lu.se/media/utbildning/dokument/kurser/FPRA12/20212/Exempeltentor_praktisk_filosofi_grundkurs.pdf",
+      "https://www.fil.lu.se/media/utbildning/dokument/kurser/FPRA12/20201/Exempeltentor_praktisk_filosofi_grundkurs.pdf"
+    ],
+    "term": "HT 2020",
+    "label": "Exempeltentor praktisk filosofi grundkurs"
+  },
+  {
+    "url": "https://www.fil.lu.se/media/utbildning/dokument/kurser/FPRA12/20222/Exempeltentor_praktisk_filosofi_grundkurs_HT22.pdf",
+    "sources": [
+      "https://www.fil.lu.se/kurs/FPRA12/HT2022/"
+    ],
+    "file": "Lund_FPRA12_20222_Exempeltentor_praktisk_filosofi_grundkurs_HT22.pdf",
+    "sha256": "3cd979d94c91d8d3cc86486dbf59168f5bed7cbb2344bb870bd70afcf21881d2",
+    "pages": 8,
+    "term": "HT 2022",
+    "label": "Exempeltentor praktisk filosofi grundkurs HT22"
+  },
+  {
+    "url": "https://www.fil.lu.se/media/utbildning/dokument/kurser/FPRA12/20232/Exempeltentor_praktisk_filosofi_grundkurs.pdf",
+    "sources": [
+      "https://www.fil.lu.se/kurs/FPRA12/HT2023/"
+    ],
+    "file": "Lund_FPRA12_20232_Exempeltentor_praktisk_filosofi_grundkurs.pdf",
+    "sha256": "da939bf2c4af48a3d81941a7437e368147b6d46f4c7b99a56077a084cdae63ae",
+    "pages": 8,
+    "term": "HT 2023",
+    "label": "Exempeltentor praktisk filosofi grundkurs"
+  },
+  {
+    "url": "https://www.fil.lu.se/media/utbildning/dokument/kurser/FPRA12/20242/Exempeltentor_i_praktisk_filosofi_grundkurs.pdf",
+    "sources": [
+      "https://www.fil.lu.se/kurs/FPRA12/HT2024/"
+    ],
+    "file": "Lund_FPRA12_20242_Exempeltentor_i_praktisk_filosofi_grundkurs.pdf",
+    "sha256": "f862f9c2969265ba5a351ae805d1c06b80d3cf821534af0e3c096b9db2638480",
+    "pages": 10,
+    "term": "HT 2024",
+    "label": "Exempeltentor i praktisk filosofi grundkurs"
+  },
+  {
+    "url": "https://www.fil.lu.se/media/utbildning/dokument/kurser/FPRA12/20252/Exempeltentor_praktisk_filosofi_grundkurs.pdf",
+    "sources": [
+      "https://www.fil.lu.se/kurs/FPRA12/HT2025/",
+      "Webbsökning, officiell PDF"
+    ],
+    "file": "Lund_FPRA12_20252_Exempeltentor_praktisk_filosofi_grundkurs.pdf",
+    "sha256": "94b86efd85476751d61c541c93bfb8ee962a6c1d38c11c049157a1e8a6b51097",
+    "pages": 9,
+    "duplicate_urls": [
+      "https://www.ht.lu.se/media/utbildning/dokument/kurser/FPPA01/20252/Exempeltentor_praktisk_filosofi_grundkurs.pdf"
+    ],
+    "term": "HT 2025",
+    "label": "Exempeltentor praktisk filosofi grundkurs"
+  },
+  {
+    "url": "https://www.fil.lu.se/media/utbildning/dokument/kurser/FPRA12/20191/Exempeltentor_praktisk_filosofi_grundkurs.pdf",
+    "sources": [
+      "https://www.fil.lu.se/kurs/FPRA12/VT2019/",
+      "https://www.fil.lu.se/kurs/FPRA12/VT2022/"
+    ],
+    "file": "Lund_FPRA12_20191_Exempeltentor_praktisk_filosofi_grundkurs.pdf",
+    "sha256": "3f3fb5cf263449576a8d25fa606d4ced034eb4872b863416240fd562845e34df",
+    "pages": 22,
+    "duplicate_urls": [
+      "https://www.fil.lu.se/media/utbildning/dokument/kurser/FPRA12/20221/Exempeltentor_praktisk_filosofi_grundkurs.pdf"
+    ],
+    "term": "VT 2019",
+    "label": "Exempeltentor praktisk filosofi grundkurs"
+  },
+  {
+    "url": "https://www.fil.lu.se/media/utbildning/dokument/kurser/FPRA12/20211/Exempeltentor_grundkursen_praktisk_filosofi_1.pdf",
+    "sources": [
+      "https://www.fil.lu.se/kurs/FPRA12/VT2021/"
+    ],
+    "file": "Lund_FPRA12_20211_Exempeltentor_grundkursen_praktisk_filosofi_1.pdf",
+    "sha256": "d21c411f74289663e4ddfbf1557ee1a8abfe525aca51a28e7c5481044b8b7197",
+    "pages": 9,
+    "term": "VT 2021",
+    "label": "Exempeltentor grundkursen praktisk filosofi 1"
+  },
+  {
+    "url": "https://www.fil.lu.se/media/utbildning/dokument/kurser/FPRA12/20221/Samh_llsfilosofi.pdf",
+    "sources": [
+      "https://www.fil.lu.se/kurs/FPRA12/VT2022/"
+    ],
+    "file": "Lund_FPRA12_20221_Samh_llsfilosofi.pdf",
+    "sha256": "a8617a8e2b900ad2acf786fc5078dfb679b2d157cf28ebf5daad27dc976dd0f7",
+    "pages": 2,
+    "term": "VT 2022",
+    "label": "Samh llsfilosofi"
+  },
+  {
+    "url": "https://www.fil.lu.se/media/utbildning/dokument/kurser/FPRA12/20221/Moralfilosofi.pdf",
+    "sources": [
+      "https://www.fil.lu.se/kurs/FPRA12/VT2022/"
+    ],
+    "file": "Lund_FPRA12_20221_Moralfilosofi.pdf",
+    "sha256": "967422252a8b373bc111ac2aa2ad9da89f3b9c38cf3f99d92d8e15824672edb2",
+    "pages": 4,
+    "term": "VT 2022",
+    "label": "Moralfilosofi"
+  },
+  {
+    "url": "https://www.fil.lu.se/media/utbildning/dokument/kurser/FPRA12/20231/Exempeltentor_praktisk_filosofi_gk_VT23.pdf",
+    "sources": [
+      "https://www.fil.lu.se/kurs/FPRA12/VT2023/"
+    ],
+    "file": "Lund_FPRA12_20231_Exempeltentor_praktisk_filosofi_gk_VT23.pdf",
+    "sha256": "0a20e4f7daa8e1d7bd15f97a1f56a4b1ec368557fb944d5540df606ec51129bf",
+    "pages": 8,
+    "term": "VT 2023",
+    "label": "Exempeltentor praktisk filosofi gk VT23"
+  },
+  {
+    "url": "https://www.fil.lu.se/media/utbildning/dokument/kurser/FPRA12/20241/Exempeltentor_i_praktisk_filosofi_grundkurs_HT23.pdf",
+    "sources": [
+      "https://www.fil.lu.se/kurs/FPRA12/VT2024/"
+    ],
+    "file": "Lund_FPRA12_20241_Exempeltentor_i_praktisk_filosofi_grundkurs_HT23.pdf",
+    "sha256": "d87b87a27bde65a008862b05d836cca3e67d9b3c1935c42d248c6eb2ca58613b",
+    "pages": 10,
+    "term": "VT 2024",
+    "label": "Exempeltentor i praktisk filosofi grundkurs HT23"
+  },
+  {
+    "url": "https://www.fil.lu.se/media/utbildning/dokument/kurser/FPRA12/20261/Exempeltentor_VT26_praktisk_filosofi_grundkurs.pdf",
+    "sources": [
+      "https://www.fil.lu.se/kurs/FPRA12/VT2026/"
+    ],
+    "file": "Lund_FPRA12_20261_Exempeltentor_VT26_praktisk_filosofi_grundkurs.pdf",
+    "sha256": "2e69ebf1cd88a88f71518168a5e7a7c30bdf99b42b54fdd866e8f32cb732fc3b",
+    "pages": 10,
+    "term": "VT 2026",
+    "label": "Exempeltentor VT26 praktisk filosofi grundkurs"
+  },
+  {
+    "url": "https://www.fil.lu.se/media/utbildning/dokument/kurser/FTEA12/20182/Exempeltentor_teoretisk_filosofi_grundskurs.pdf",
+    "sources": [
+      "https://www.fil.lu.se/kurs/FTEA12/HT2018/"
+    ],
+    "file": "Lund_FTEA12_20182_Exempeltentor_teoretisk_filosofi_grundskurs.pdf",
+    "sha256": "26ad5debca18735b2f25af36c3a1af6b4526c484e98f2878788b4dc4c09ef819",
+    "pages": 11,
+    "term": "HT 2018",
+    "label": "Exempeltentor teoretisk filosofi grundskurs"
+  },
+  {
+    "url": "https://www.fil.lu.se/media/utbildning/dokument/kurser/FTEA12/20192/Exempeltentor_teoretisk_filosofi_grundkurs.pdf",
+    "sources": [
+      "https://www.fil.lu.se/kurs/FTEA12/HT2019/"
+    ],
+    "file": "Lund_FTEA12_20192_Exempeltentor_teoretisk_filosofi_grundkurs.pdf",
+    "sha256": "2ccd24db07464d76ef310decda52e8426a1b14b1dbcae2da9e3757181d4e82b4",
+    "pages": 22,
+    "term": "HT 2019",
+    "label": "Exempeltentor teoretisk filosofi grundkurs"
+  },
+  {
+    "url": "https://www.fil.lu.se/media/utbildning/dokument/kurser/FTEA12/20202/Exempeltentor_teoretisk_filosofi_grundkurs.pdf",
+    "sources": [
+      "https://www.fil.lu.se/kurs/FTEA12/HT2020/",
+      "https://www.fil.lu.se/kurs/FTEA12/HT2021/",
+      "https://www.fil.lu.se/kurs/FTEA12/VT2020/",
+      "https://www.fil.lu.se/kurs/FTEA12/VT2021/",
+      "Webbsökning, officiell PDF"
+    ],
+    "file": "Lund_FTEA12_20202_Exempeltentor_teoretisk_filosofi_grundkurs.pdf",
+    "sha256": "df36a8eba7120143eccd2816e21f76ae1be06f82277ac32926fb9277bfbf6b17",
+    "pages": 14,
+    "duplicate_urls": [
+      "https://www.fil.lu.se/media/utbildning/dokument/kurser/FTEA12/20212/Exempeltentor_teoretisk_filosofi_grundkurs.pdf",
+      "https://www.fil.lu.se/media/utbildning/dokument/kurser/FTEA12/20201/Exempeltentor_teoretisk_filosofi_grundkurs_VT20.pdf",
+      "https://www.fil.lu.se/media/utbildning/dokument/kurser/FTEA12/20211/Exempeltentor_teoretisk_filosofi_grundkurs.pdf",
+      "https://www.ht.lu.se/media/utbildning/dokument/kurser/FTEA12/20212/Exempeltentor_teoretisk_filosofi_grundkurs.pdf"
+    ],
+    "term": "HT 2020",
+    "label": "Exempeltentor teoretisk filosofi grundkurs"
+  },
+  {
+    "url": "https://www.fil.lu.se/media/utbildning/dokument/kurser/FTEA13/20222/Exempeltentor_teoretisk_filosofi_grundkurs_HT22.pdf",
+    "sources": [
+      "https://www.fil.lu.se/kurs/FTEA13/HT2022/"
+    ],
+    "file": "Lund_FTEA13_20222_Exempeltentor_teoretisk_filosofi_grundkurs_HT22.pdf",
+    "sha256": "4f582aa704e8080f514516aca195b33e43a28e4f3e035a81231c919fcfc35964",
+    "pages": 17,
+    "term": "HT 2022",
+    "label": "Exempeltentor teoretisk filosofi grundkurs HT22"
+  },
+  {
+    "url": "https://www.fil.lu.se/media/utbildning/dokument/kurser/FTEA13/20232/Exempeltentor_teoretisk_filosofi_grundkurs.pdf",
+    "sources": [
+      "https://www.fil.lu.se/kurs/FTEA13/HT2023/"
+    ],
+    "file": "Lund_FTEA13_20232_Exempeltentor_teoretisk_filosofi_grundkurs.pdf",
+    "sha256": "2ac9aad174566c378958b3377112ab84648d5b25a9fe4baf22bed79267f35507",
+    "pages": 15,
+    "term": "HT 2023",
+    "label": "Exempeltentor teoretisk filosofi grundkurs"
+  },
+  {
+    "url": "https://www.fil.lu.se/media/utbildning/dokument/kurser/FTEA13/20242/Exempeltentor_i_teoretisk_filosofi_grundkurs.pdf",
+    "sources": [
+      "https://www.fil.lu.se/kurs/FTEA13/HT2024/",
+      "Webbsökning, officiell PDF"
+    ],
+    "file": "Lund_FTEA13_20242_Exempeltentor_i_teoretisk_filosofi_grundkurs.pdf",
+    "sha256": "38287586bb8de9588b755a42147aac76ed2ee77eaff433958be2aea5375f729c",
+    "pages": 13,
+    "duplicate_urls": [
+      "https://www.ht.lu.se/media/utbildning/dokument/kurser/FTEA13/20242/Exempeltentor_i_teoretisk_filosofi_grundkurs.pdf"
+    ],
+    "term": "HT 2024",
+    "label": "Exempeltentor i teoretisk filosofi grundkurs"
+  },
+  {
+    "url": "https://www.fil.lu.se/media/utbildning/dokument/kurser/FTEA13/20252/Exempeltentor_teoretisk_filosofi_grundkurs.pdf",
+    "sources": [
+      "https://www.fil.lu.se/kurs/FTEA13/HT2025/"
+    ],
+    "file": "Lund_FTEA13_20252_Exempeltentor_teoretisk_filosofi_grundkurs.pdf",
+    "sha256": "ea0f857166abb017c30eac093d94d346c1d844545fdcedbc05c865cfe806a67e",
+    "pages": 12,
+    "term": "HT 2025",
+    "label": "Exempeltentor teoretisk filosofi grundkurs"
+  },
+  {
+    "url": "https://www.fil.lu.se/media/utbildning/dokument/kurser/FTEA13/20231/Exempeltentor_teoretisk_filosofi_gk_VT23.pdf",
+    "sources": [
+      "https://www.fil.lu.se/kurs/FTEA13/VT2023/"
+    ],
+    "file": "Lund_FTEA13_20231_Exempeltentor_teoretisk_filosofi_gk_VT23.pdf",
+    "sha256": "ee2181575dd29cfa83f7feaee169612ece03fdb71d848e97063677fc73c3d818",
+    "pages": 16,
+    "term": "VT 2023",
+    "label": "Exempeltentor teoretisk filosofi gk VT23"
+  },
+  {
+    "url": "https://www.fil.lu.se/media/utbildning/dokument/kurser/FTEA13/20241/Exempeltentor_i_teoretisk_filosofi_grundkurs_HT23.pdf",
+    "sources": [
+      "https://www.fil.lu.se/kurs/FTEA13/VT2024/"
+    ],
+    "file": "Lund_FTEA13_20241_Exempeltentor_i_teoretisk_filosofi_grundkurs_HT23.pdf",
+    "sha256": "5fe9a03700e7794667cf6e4917050a861d39d5a193e04d65751619c00f00f66e",
+    "pages": 13,
+    "term": "VT 2024",
+    "label": "Exempeltentor i teoretisk filosofi grundkurs HT23"
+  },
+  {
+    "url": "https://www.fil.lu.se/media/utbildning/dokument/kurser/FTEA13/20261/Exempeltentor_VT26_teoretisk_filosofi_grundkurs.pdf",
+    "sources": [
+      "https://www.fil.lu.se/kurs/FTEA13/VT2026/"
+    ],
+    "file": "Lund_FTEA13_20261_Exempeltentor_VT26_teoretisk_filosofi_grundkurs.pdf",
+    "sha256": "08935b5a4735062de73f4887f64bfe40a79dfd3f65d08e8bf6b6055951ee2fb0",
+    "pages": 12,
+    "term": "VT 2026",
+    "label": "Exempeltentor VT26 teoretisk filosofi grundkurs"
+  }
+]
