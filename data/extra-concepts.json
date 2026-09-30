@@ -1,16 +1,48 @@
 [
   {
     "name": "Axiom",
-    "aliases": ["axiomet", "axiomen", "grundantagande"],
+    "aliases": [
+      "axiomet",
+      "axiomen",
+      "grundantagande"
+    ],
     "definition": "Ett grundläggande påstående som man utgår från utan att bevisa det inom det system man arbetar i. Med hjälp av axiomen och regler för slutledning kan man bevisa andra påståenden.",
     "example": "I euklidisk geometri utgår man exempelvis från att det går att dra en rät linje mellan två punkter. Det är en utgångspunkt för geometrins bevis.",
     "note": "Ett axiom behöver i modern logik inte vara en självklar sanning om världen. Skilj det från ett teorem, som bevisas, och från en definition, som anger vad ett uttryck betyder. Hos Aristoteles hör axiomen till de första principer som vetenskapliga bevis utgår från.",
     "topic": "logik-grunder",
     "course": "kritiskt",
-    "relatedTopics": ["aristoteles"],
+    "relatedTopics": [
+      "aristoteles"
+    ],
     "sources": [
-      {"title": "Wolfram MathWorld: Axiom", "url": "https://mathworld.wolfram.com/Axiom.html"},
-      {"title": "Stanford Encyclopedia of Philosophy: Aristotle’s Logic, avsnitt 6", "url": "https://plato.stanford.edu/entries/aristotle-logic/#DemoDemoScie"}
+      {
+        "title": "Wolfram MathWorld: Axiom",
+        "url": "https://mathworld.wolfram.com/Axiom.html"
+      },
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Aristotle’s Logic, avsnitt 6",
+        "url": "https://plato.stanford.edu/entries/aristotle-logic/#DemoDemoScie"
+      }
+    ]
+  },
+  {
+    "name": "Hylomorfism",
+    "aliases": [
+      "hyloformism",
+      "hylomorphism",
+      "hylomorfismen"
+    ],
+    "definition": "Aristoteles lära att konkreta fysiska ting är sammansatta av materia och form. Materian är det som tinget är gjort av; formen är det som gör det till ett bestämt slags ting.",
+    "example": "En trästol: träet är materian och sättet det är organiserat till en stol är formen. Exemplet hjälper oss att skilja materialet från vad det har blivit.",
+    "note": "Form betyder mer än yttre kontur. För en levande varelse handlar det också om dess organisation och livsfunktioner. Materia och form är principer för att förstå samma ting, inte två separata föremål.",
+    "topic": "aristoteles",
+    "course": "historia",
+    "relatedTopics": [],
+    "sources": [
+      {
+        "title": "Stanford Encyclopedia of Philosophy: Form vs. Matter",
+        "url": "https://plato.stanford.edu/entries/form-matter/"
+      }
     ]
   }
 ]
