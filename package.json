@@ -3,11 +3,13 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "engines": {"node": ">=22"},
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "build": "node scripts/build-guide.mjs",
     "preview": "node scripts/preview.mjs",
     "test": "node --test tests/*.test.mjs",
-    "check": "node --check guide/app.mjs && node --check guide/core.mjs && node --check scripts/build-guide.mjs && node --check scripts/preview.mjs && npm run build && npm test"
+    "check": "node --check guide/app.mjs && node --check guide/core.mjs && node --check guide/time-core.mjs && node --check guide/time-map.mjs && node --check scripts/build-guide.mjs && node --check scripts/preview.mjs && npm run build && npm test"
   }
 }

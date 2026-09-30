@@ -1,10 +1,14 @@
 import {readFile, writeFile} from 'node:fs/promises';
 import {fileURLToPath} from 'node:url';
 import path from 'node:path';
+import {validateTimeMap} from '../guide/time-core.mjs';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const read = p => readFile(path.join(root,p),'utf8');
 const topics = JSON.parse(await read('data/guide-topics.json'));
 const exams = JSON.parse(await read('data/exams.json'));
+const timeMap = JSON.parse(await read('data/time-map.json'));
+const mapLand = JSON.parse(await read('data/map-land.json'));
+validateTimeMap(timeMap, topics);
 const ids = new Set();
 for (const t of topics) {
   if (!/^[a-z0-9-]+$/.test(t.id) || ids.has(t.id) || !['historia','kritiskt'].includes(t.course)) throw new Error('Invalid topic: '+t.id);
@@ -17,8 +21,11 @@ for(const e of exams) if(new URL(e.url).origin!=='https://www.fil.lu.se' || !Num
 // Escape less-than characters so even future quoted HTML cannot end the script.
 const json = x => JSON.stringify(x).replace(/</g,'\\u003c');
 const core = (await read('guide/core.mjs')).replace(/^export /gm,'');
-const app = (await read('guide/app.mjs')).replace(/^import .*;\n/,'').replace('/* GUIDE_TOPICS */ []',()=>json(topics)).replace('/* GUIDE_EXAMS */ []',()=>json(exams));
-const css = await read('guide/styles.css');
-const output = (await read('guide/shell.html')).replace('/* GUIDE_STYLES */',()=>css).replace('/* GUIDE_SCRIPT */',()=>core+'\n'+app);
+const strip = s => s.replace(/^import .*;\n/gm,'').replace(/^export /gm,'');
+const timeCore = strip(await read('guide/time-core.mjs'));
+const timeView = strip(await read('guide/time-map.mjs'));
+const app = strip(await read('guide/app.mjs')).replace('/* GUIDE_TOPICS */ []',()=>json(topics)).replace('/* GUIDE_EXAMS */ []',()=>json(exams)).replace('/* GUIDE_TIME_MAP */ {}',()=>json(timeMap)).replace('/* GUIDE_MAP_LAND */ {}',()=>json(mapLand));
+const css = (await read('guide/styles.css'))+'\n'+await read('guide/time-map.css');
+const output = (await read('guide/shell.html')).replace('/* GUIDE_STYLES */',()=>css).replace('/* GUIDE_SCRIPT */',()=>core+'\n'+timeCore+'\n'+timeView+'\n'+app);
 await writeFile(path.join(root,'guide.html'),output);
 console.log(`Built guide.html: ${topics.length} topics, ${topics.reduce((n,t)=>n+t.questions.length,0)} questions`);
